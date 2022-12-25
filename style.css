@@ -63,7 +63,7 @@ header .navigations ul li a { color: #ffffff; margin-right: 2.5rem; font-size: 1
 @media screen and (max-width: 767px) {
     body { overflow: visible;}
     /* Banner Content right */
-    .banner-block-content-r { position: relative; height: 100vh; width: 100vw; left: 0%; background: rgba(156, 156, 156, 0.445); overflow: hidden; top: 0;}
+    .banner-block-content-r { position: relative; height: 100vh; width: 100vw; left: 0%; background: rgba(156, 156, 156, 0.445); overflow: hidden; top: 0; padding: 0 15px;}
     .banner-block-content-l { position: relative; height: 100vh; width: 100vw; left: 0%; overflow: hidden; top: 0; }
     .banner-block-content-l .block-container {
         margin-top: 100px;
@@ -74,7 +74,7 @@ header .navigations ul li a { color: #ffffff; margin-right: 2.5rem; font-size: 1
         max-width: 250px;
     }
     header .container .navigations {
-        flex: 0 0 100%;
+        flex: 0 0 80%;
     }
     header .navigations ul li a {
         color: #ffffff;
@@ -88,5 +88,8 @@ header .navigations ul li a { color: #ffffff; margin-right: 2.5rem; font-size: 1
     }
     .banner-block-content-r .producers {
         margin-top: 100px;
+    }
+    .book-now a, .border-btn a {
+        font-size: 1.2rem;
     }
 }
