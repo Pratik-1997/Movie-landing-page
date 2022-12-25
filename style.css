@@ -91,5 +91,21 @@ header .navigations ul li a { color: #ffffff; margin-right: 2.5rem; font-size: 1
     }
     .book-now a, .border-btn a {
         font-size: 1.2rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner-content  { background-position-x: -205px; background-position-y: center;}
+    header .container .movie-logo { margin-right: 10px;}
+    .trailer-view-block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .trailer-btn {
+        position: relative;
+        margin: 0 auto;
+    }
+    .director-descp p {
+        margin-top: 1rem;
     }
 }
